@@ -1,0 +1,55 @@
+.header
+    height: 100vh
+    font-family: 'UniviaPro', sans-serif
+    &__bg
+        height: 40%
+        background-image: url('../../assets/images/star-citizen-2560x1440.jpg')
+    &__nav-bg
+        background-color: $grisbold
+        &_nav
+            height: 5rem
+            display: flex
+            justify-content: space-between
+            align-items: center
+            &_logo
+                height: 95%
+            &_ul
+                display: flex
+                justify-content: space-between
+                @media screen and ( min-width: 992px )
+                    width: 30%
+
+                &:hover
+                &_button
+                    &:hover
+                        .underline
+                            background-color: $marron
+                            height: 2px
+                            width: 100%
+                    &_a
+                        text-transform: uppercase
+                        color: $White
+                        font-size: 0.8rem
+                        text-decoration: none
+                        @media screen and ( min-width: 992px )
+                            font-weight: 600
+                            font-size: 1rem
+
+            &_join
+                background-color: $marron
+                height: 100%
+                display: flex
+                align-items: center
+                text-decoration: none
+                color: $White
+                font-weight: 600
+                padding: 1rem
+    &__content-bg
+        background-image: url("../../assets/images/axiom-pattern.png")
+        &_content
+            height: 25rem
+            display: flex
+            &_textes
+                &_title
+                &_txt
+            &_button

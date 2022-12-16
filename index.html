@@ -2,19 +2,74 @@
 
 <html lang="fr">
 
-    <head>
-        <meta charset="UTF-8">
-        <title>Integration virgin template</title>
-    
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-        <link rel="stylesheet" href="assets/css/reset.css" />
-        <link rel="stylesheet" href="assets/css/styles.css" />
+<head>
+    <meta charset="UTF-8">
+    <title>STARFLEET</title>
 
-    </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+</head>
 
 <body>
 
+    <header class="header">
+
+        <!-- backgroud du header au dessus de la nav -->
+        <div class="header__bg"></div>
+
+        <!-- bg de la nav -->
+        <nav class="header__nav-bg">
+            <div class="container">
+                <!-- contenue de la nav -->
+                <div class="header__nav-bg_nav">
+                    <img class="header__nav-bg_nav_logo" src="assets\images\logo-starfleet.png" alt="logo">
+                    <ul class="header__nav-bg_nav_ul">
+                        <li class="header__nav-bg_nav_ul_button"><a class="header__nav-bg_nav_ul_button_a"
+                                href="">Accueil</a>
+                            <div class="underline">
+                                <!-- hover des btn de la nav -->
+                            </div>
+                        </li>
+                        <li class="header__nav-bg_nav_ul_button"><a class="header__nav-bg_nav_ul_button_a" href="">Nos
+                                missions</a>
+                            <div class="underline">
+                                <!-- hover des btn de la nav -->
+                            </div>
+                        </li>
+                        <li class="header__nav-bg_nav_ul_button"><a class="header__nav-bg_nav_ul_button_a" href="">à
+                                propos</a>
+                            <div class="underline">
+                                <!-- hover des btn de la nav -->
+                            </div>
+                        </li>
+                    </ul>
+                    <a class="header__nav-bg_nav_join" href="">NOUS REJOINDRE</a>
+                </div>
+            </div>
+
+        </nav>
+        <div class="header__content-bg">
+            <div class="container">
+                <div class="header__content-bg_content">
+                    <div class="header__content-bg_content_textes">
+                        <h1 class="header__content-bg_content_textes_title">Défendez le système solaire</h1>
+
+                        <p class="header__content-bg_content_textes_txt">Depuis maintenant plus de 50 ans, nous
+                            maintenons
+                            l'ordre et la paix
+                            dans le
+                            système solaire.</p>
+
+                        <a class="header__content-bg_content_textes_button" href="">EN SAVOIR PLUS</a>
+                    </div>
+                    <img class="header__content-bg_content" src="assets\images\Home_fg.png" alt="image-soldat">
+                </div>
+            </div>
+        </div>
+    </header>
 </body>
 
 </html>

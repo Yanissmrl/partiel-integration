@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  display: block;
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.header {
+  height: 100vh;
+  font-family: 'UniviaPro', sans-serif;
+}
+
+.header__bg {
+  height: 40%;
+  background-image: url("../../assets/images/star-citizen-2560x1440.jpg");
+}
+
+.header__nav-bg {
+  background-color: #202020;
+}
+
+.header__nav-bg_nav {
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__nav-bg_nav_logo {
+  height: 95%;
+}
+
+.header__nav-bg_nav_ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 992px) {
+  .header__nav-bg_nav_ul {
+    width: 30%;
+  }
+}
+
+.header__nav-bg_nav_ul_button:hover .underline {
+  background-color: #B46816;
+  height: 2px;
+  width: 100%;
+}
+
+.header__nav-bg_nav_ul_button_a {
+  text-transform: uppercase;
+  color: #ffff;
+  font-size: 0.8rem;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 992px) {
+  .header__nav-bg_nav_ul_button_a {
+    font-weight: 600;
+    font-size: 1rem;
+  }
+}
+
+.header__nav-bg_nav_join {
+  background-color: #B46816;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #ffff;
+  font-weight: 600;
+  padding: 1rem;
+}
+
+.header__content-bg {
+  background-image: url("../../assets/images/axiom-pattern.png");
+}
+
+.header__content-bg_content {
+  height: 25rem;
+  display: flex;
+}
+
+.header {
+  height: 100vh;
+  font-family: 'UniviaPro', sans-serif;
+}
+
+.header__bg {
+  height: 40%;
+  background-image: url("../../assets/images/star-citizen-2560x1440.jpg");
+}
+
+.header__nav-bg {
+  background-color: #202020;
+}
+
+.header__nav-bg_nav {
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__nav-bg_nav_logo {
+  height: 95%;
+}
+
+.header__nav-bg_nav_ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 992px) {
+  .header__nav-bg_nav_ul {
+    width: 30%;
+  }
+}
+
+.header__nav-bg_nav_ul_button:hover .underline {
+  background-color: #B46816;
+  height: 2px;
+  width: 100%;
+}
+
+.header__nav-bg_nav_ul_button_a {
+  text-transform: uppercase;
+  color: #ffff;
+  font-size: 0.8rem;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 992px) {
+  .header__nav-bg_nav_ul_button_a {
+    font-weight: 600;
+    font-size: 1rem;
+  }
+}
+
+.header__nav-bg_nav_join {
+  background-color: #B46816;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #ffff;
+  font-weight: 600;
+  padding: 1rem;
+}
+
+.header__content-bg {
+  background-image: url("../../assets/images/axiom-pattern.png");
+}
+
+.header__content-bg_content {
+  height: 25rem;
+  display: flex;
+}
+
+/*# sourceMappingURL=styles.css.map */
